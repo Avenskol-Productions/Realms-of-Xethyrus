@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beedb4eb6f530ce418213157018d62e5, type: 3}
+  m_Name: tooltip_room_voderai_hall
+  m_EditorClassIdentifier: 
+  DEBUG: 0
+  TooltipID: 
+  TagIDs: []
+  DiscoveryDependencies: []
+  VisibleToPlayer: 1
+  MapColor: {r: 1, g: 1, b: 1, a: 1}
+  Action: Voderai Officiation Hall
+  Name: Voderai Officiation Hall
+  NamePlural: Voderai Officiation Halls
+  InlineIcon: <sprite=708>
+  Description: The Officiation hall is the most important part of a voderai den,
+    and is often where a pack officiant can be found welcoming newcomers into the
+    pack.
+  DiscoveryHint: 
+  Icon: sp_room_town_hall_icon
+  TextColor: {r: 0.7254902, g: 0.38039216, b: 0.45882353, a: 1}
+  Type: Room
+  TypeColor: {r: 0.14117648, g: 0.12941177, b: 0.1137255, a: 1}
+  Order: 3152

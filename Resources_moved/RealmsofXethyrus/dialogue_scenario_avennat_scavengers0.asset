@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d81985b295399498626a621398670f, type: 3}
+  m_Name: dialogue_scenario_avennat_scavengers0
+  m_EditorClassIdentifier: 
+  DEBUG: 0
+  TooltipID: 
+  TagIDs: []
+  DiscoveryDependencies: []
+  VisibleToPlayer: 1
+  MapColor: {r: 1, g: 1, b: 1, a: 1}
+  AppearanceID: 
+  NextDialogueID: []
+  SpeakerTarget: 
+  Message: 
+  Response: []
+  ShowOnce: 0
+  DialogueSequences:
+  - ID: narrator0
+    Text: A group of avennats has been seen in the distance.
+    OverrideSpeaker: 1
+    OverrideSpeakerID: 
+    Condition:
+      TagRequirement0ID: 
+      TagRequirement1ID: 
+      TagRequirement2ID: 
+    ActionA:
+      Text: 
+      NextSequenceID: speaker0
+      ActionType: 0
+      SpeakerAction: 1
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionB:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionC:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionD:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+  - ID: speaker0
+    Text: '*Rattling purr* Hah! A place to scavenge. Might we be allowed to join
+      your pack? We could offer protection.'
+    OverrideSpeaker: 0
+    OverrideSpeakerID: speaker0
+    Condition:
+      TagRequirement0ID: 
+      TagRequirement1ID: 
+      TagRequirement2ID: 
+    ActionA:
+      Text: Of course! As long as you remain civil!
+      NextSequenceID: action_yes
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionB:
+      Text: Not interested in having bandits wandering around!
+      NextSequenceID: action_no
+      ActionType: 0
+      SpeakerAction: 1
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionC:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionD:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+  - ID: action_yes
+    Text: '*Chattering hiss* Civilty isn''t a keen interest, but we''ll try to.'
+    OverrideSpeaker: 0
+    OverrideSpeakerID: speaker0
+    Condition:
+      TagRequirement0ID: 
+      TagRequirement1ID: 
+      TagRequirement2ID: 
+    ActionA:
+      Text: 
+      NextSequenceID: 
+      ActionType: 2
+      SpeakerAction: 2
+      ActionDataID: faction_player
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionB:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionC:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionD:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+  - ID: action_no
+    Text: '*Rattling hiss* If you insist! Take what you can, and kill the rest!'
+    OverrideSpeaker: 0
+    OverrideSpeakerID: speaker0
+    Condition:
+      TagRequirement0ID: 
+      TagRequirement1ID: 
+      TagRequirement2ID: 
+    ActionA:
+      Text: 
+      NextSequenceID: 
+      ActionType: 2
+      SpeakerAction: 2
+      ActionDataID: faction_hostile
+      ActionCount: 0
+      ScenarioID: scenario_avennat_scavengers0
+      TagObjectID: 
+    ActionB:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionC:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 
+    ActionD:
+      Text: 
+      NextSequenceID: 
+      ActionType: 0
+      SpeakerAction: 0
+      ActionDataID: 
+      ActionCount: 0
+      ScenarioID: 
+      TagObjectID: 

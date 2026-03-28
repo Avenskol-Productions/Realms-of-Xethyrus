@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537451162d52d14481f084aaa83a819, type: 3}
+  m_Name: entity_names_voderai
+  m_EditorClassIdentifier: 
+  DEBUG: 0
+  TooltipID: 
+  TagIDs: []
+  DiscoveryDependencies: []
+  VisibleToPlayer: 1
+  MapColor: {r: 1, g: 1, b: 1, a: 1}
+  SeparateFirstNamePrepends: 0
+  FirstNameNeutralPrependChances: 0
+  FirstNameNeutralPrepends: []
+  NeutralFirstNames: []
+  FirstNameMasculinePrependChances: 1000
+  FirstNameMasculinePrepends:
+  - Ari
+  - Avmi
+  - Nen
+  - Uz
+  - Valm
+  - Jakra
+  - Dae
+  - Aka
+  - Jav
+  - Ri
+  - Kmi
+  - kl
+  - Pak
+  - Akz
+  MasculineFirstNames:
+  - kal
+  - wuki
+  - rio
+  - mri
+  - ilient
+  - ato
+  - mifa
+  - mifa
+  - ska
+  - ita
+  - ai
+  - acit
+  - ato
+  FirstNameFemininePrependChances: 1000
+  FirstNameFemininePrepends:
+  - Ansi
+  - Alir
+  - Axir
+  - Aka
+  - Ake
+  - Cio
+  - Susa
+  - Uw
+  - Vod
+  - Dae
+  - Aka
+  - Sui
+  - Ri
+  - Kmi
+  - Pak
+  - Akz
+  FeminineFirstNames:
+  - amia
+  - ica
+  - fiol
+  - ilios
+  - sata
+  - rira
+  - weili
+  - iva
+  - mifa
+  - mina
+  - zva
+  - ita
+  - klai
+  - acit
+  - ato
+  SeparateLastNamePrepends: 0
+  LastNamePrependChances: 1000
+  LastNamePrepends:
+  - Akfia
+  - Aven
+  - Dela
+  - Rik
+  - Das
+  - Jakra
+  - Javi
+  LastNames:
+  - saki
+  - kyr
+  - straos
+  - osa
+  - ka
+  - sato
+  - nex
